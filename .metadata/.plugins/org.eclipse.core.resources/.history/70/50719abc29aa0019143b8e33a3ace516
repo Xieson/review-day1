@@ -1,0 +1,24 @@
+package com.chlp.team;
+
+public class Abc {
+//	private static double c=3.00;
+//	private static int a=1;
+//	private static  chengfa(a.d){
+//		return;
+//	}
+
+	public static void main(String[] args){
+		int f,i;
+		f=4;
+		i=++f;
+		System.out.println(i+f);
+		byte b=1;
+		short a=b;
+		int s=a;
+		long r=s;
+		float u=r;
+		double x=u;
+		System.out.println("nishi1"+7+8);
+		System.out.println(x);
+	}
+}

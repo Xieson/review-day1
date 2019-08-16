@@ -1,0 +1,14 @@
+package com.chlp.team;
+
+public class Abcde extends Abcd {
+	private double monye;
+	Abcde(int age,String name,double monye){
+		super(age,name);
+		this.monye=monye;
+	}
+	public static void main(String[] args){
+		Abcd a=new Abcde();
+		a.ss();
+	}
+
+}

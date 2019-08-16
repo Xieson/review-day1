@@ -1,0 +1,4 @@
+INDEX VERSION 1.127+E:\javaweb\2019-7-14javawebÏîÄ¿\.metadata\.plugins\org.eclipse.jdt.core
+2472051794.index
+1387770166.index
+1773393425.index

@@ -1,0 +1,42 @@
+package com.chlp.team;
+/*
+ * 知识,通过switch判断输出一句话
+ * 步骤,思路:
+ * 		1:定义一个数
+ * 		2:通过switch方法去判断,执行代码
+ * 细节:
+ * 	switch关键字的用法,注意事项
+ * */
+public class Switchdome {
+	public static void aa1(){
+		System.out.println("你好,我是aa1");
+	}
+	public static void aa2(){
+		System.out.println("你好,我是aa2");
+	}
+	public static void aa3(){
+		System.out.println("你好,我是aa3");
+	}
+	public static void aa4(){
+		System.out.println("你好,我是aa4");
+	}
+	public static void aa5(){
+		System.out.println("你好,我是aa5");
+	}
+	public static void aa6(){
+		System.out.println("你好,我是aa6");
+	}
+	public static void main(String[] args){
+		byte i=5;
+		switch(i){
+		default:Switchdome.aa6();
+		case 1:Switchdome.aa1();break;
+		case 2:Switchdome.aa2();break;
+		case 3:Switchdome.aa3();break;
+		case 4:Switchdome.aa4();break;
+		case 5:Switchdome.aa5();break;
+		
+		}
+	}
+
+}

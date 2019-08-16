@@ -1,0 +1,28 @@
+package com.chlp.team;
+/*
+ *知识点:for循环
+ * 习题:通过for循环输出九九乘法表
+ * 思路:九九乘法表横竖的个数都为9个,横竖着的个数从一个开始依次增加一个
+ * 		即: *
+ * 			**
+ * 			***
+ * 			..........
+ * 		一个for循环只能控制结果进行横着或者竖着输出横着即:System.out.print();print()与println()的区别就是输出结构后换不换行
+ * 		九九乘法表的每个元素结构为n*m=mun(n*m的相乘的集)
+ * 		所以需要定义三个元素对应相应的乘数(n),被乘数(m),集mun
+ * 		九九乘法表的应该循环的次数为9*9
+ * 		
+ * */
+public class Fordome {
+		public static void main(String[] args){
+			//乘数
+			//被乘数
+			int mun;//两个数的集
+			for(int n=1;n<=9;n++){//
+				for(int m=1;m<=9;m++){
+					System.out.println(n+"*"+m+"="+n*m);
+				}
+			}
+		}
+
+}

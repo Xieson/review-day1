@@ -1,0 +1,25 @@
+package com.chlp.team;
+/*
+ * 学习知识:练习whlie循环
+ * 知识点:
+ * 1:whlie循环的作用,用途
+ * 2:代码的编写格式
+ * 3:注意事项
+ * 思路:定义一个数,并初始,思考要循环的代码,还有循环次数
+ * 举列:定义一个方法,输出一个简单的语句,代码循环5次
+ * */
+public class Whliedome {
+	public static void aa(){
+		
+		System.out.println("请叫我靓仔");
+	}
+	public static void main(String[] args){
+	
+		long x=1;
+		while(x<5){
+			Whliedome.aa();
+			x++;
+		}
+	}
+
+}

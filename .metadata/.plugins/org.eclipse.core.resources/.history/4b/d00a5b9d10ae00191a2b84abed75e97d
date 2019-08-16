@@ -1,0 +1,22 @@
+package com.clp.temo;
+/*
+ * 定义Usbslot类去实现Iusb接口,并实现接口里所默认的抽象Slot方法
+ * 实现步骤
+ * 1:实现接口
+ * 2:定义插槽(插入实现功能)
+ * 3:实现功能
+ * */
+public class Usbslot implements Iusb{
+	//1:实现方法
+	public void Slot(){//实现接口里的抽象方法,(注意:接口里方法默认修饰符是public abstract
+//												所以类实现接口里方法时,修饰符要大于或者等于接口里的修饰符)
+		System.out.println("usb插槽已经插入");//输入一句话,调用方法时好区分		
+						}
+	//2:定义方法插入插槽
+		public static void insert(Iusb i){
+			i.Slot();
+		}
+	public static void main(String[] args){
+		Iusb a=new Usbslot();
+	}
+									}

@@ -1,0 +1,23 @@
+package com.chlp.team;
+/*
+ * 知识点:方法的重载
+ * 	注意事项:方法的重载指定义方法的类型,名字相同,方法里的参数不同,不区分类型参数的名字,只区分参数的类型
+ * 			即		public void ss(){}
+					public void ss(int a){}
+					public void ss(int a,int b){}
+					public void ss(int a,int b,String c){}
+ * 
+ * */
+public class Abcd {
+	private int age;
+	private String name;
+	Abcd(){}
+	Abcd(int age,String name){
+		this.age=age;
+		this.name=name;
+	}
+		public void ss(){}
+		public void ss(int a){}
+		public void ss(int a,int b){}
+		public void ss(int a,int b,String c){}
+}

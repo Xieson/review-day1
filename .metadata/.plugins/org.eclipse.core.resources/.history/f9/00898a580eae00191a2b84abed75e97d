@@ -1,0 +1,8 @@
+package com.clp.temo;
+/*
+ * 知识点:接口
+ * 题目:定义电脑主机上的一个Usb插槽
+ * */
+public interface Iusb {
+	void Slot();
+}

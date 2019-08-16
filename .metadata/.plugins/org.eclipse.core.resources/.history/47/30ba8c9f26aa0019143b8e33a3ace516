@@ -1,0 +1,8 @@
+package com.chlp.team;
+
+public class Abc {
+	private static double c=3;
+	public static void main(String[] args){
+		System.out.println(c);
+	}
+}

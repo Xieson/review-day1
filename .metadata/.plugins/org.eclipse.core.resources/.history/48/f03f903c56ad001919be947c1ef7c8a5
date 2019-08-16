@@ -1,0 +1,15 @@
+package com.chlp.team;
+
+public class Abcde extends Abcd {
+	private double monye;
+	Abcde(){}
+	Abcde(int age,String name,double monye){
+		super();//通过super获取父类构造器,如果
+		this.monye=monye;
+	}
+	public static void main(String[] args){
+		Abcd a=new Abcde();//继承形成多态
+		a.ss();
+	}
+
+}
